@@ -1878,9 +1878,9 @@ ul{
 
 .answer_image {
 	position: relative;
-	min-width: 100%;
-	max-height: 250px;
-	 object-fit: cover;
+	max-height: 200px;
+	object-fit: contain;
+	width: 50%;
 }
 
 
