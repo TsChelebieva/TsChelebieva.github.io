@@ -1879,8 +1879,8 @@ ul{
 .answer_image {
 	position: relative;
 	max-height: 200px;
+	max-width: 200px;
 	object-fit: contain;
-	width: 50%;
 }
 
 
