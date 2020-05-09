@@ -1,0 +1,42 @@
+ul{
+	list-style-type:none;
+}
+
+img {
+	position: relative;
+	max-width: 250px;
+	max-height: 250px;
+}
+
+.crop {
+	width: 200px;
+	height: 200px;
+	overflow:hidden;
+}
+
+.card {
+	width: 202px;
+	cursor: pointer; 
+}
+
+.card:hover {
+	box-shadow: 3px 3px 10px grey;
+-webkit-backface-visibility: hidden;
+-webkit-transform: translateZ(0) scale(1.05, 1.05);
+transition: 0.7s;
+}
+
+input {
+	display: none;
+	cursor: pointer;
+}
+
+.question-title {
+	text-align: center;
+}
+
+[type=radio]:checked + div {
+transform: scale(1.05); 
+box-shadow: 3px 3px 10px grey;
+
+}
