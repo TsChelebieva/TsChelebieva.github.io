@@ -1,5 +1,5 @@
 
-function hey() {
+function totalResult() {
 
 	var all = document.querySelectorAll('input[type=radio]:checked')
 
@@ -33,21 +33,18 @@ for (var i = 0; i < result.length; i++) {
 }
 
 var result = ["You are Adela!", "You are Siana!", "You are Candice!", "You are Jamie!", "You are Kristine!", "You are Summer!", "You are Tsvety!", "You are Patrick!"];
-var image = ["img/adela.jpg","img/siana.jpg","img/candice.jpg","img/jamie.jpg","img/kristine.jpg" ,"img/summer.jpg","img/tsvety.jpg" , "img/patrick.jpg"]
+var image = ["images/jt_quiz/adela.jpg","images/jt_quiz/siana.jpg","images/jt_quiz/candice.jpg","images/jt_quiz/jamie.jpg","images/jt_quiz/kristine.jpg" ,"images/jt_quiz/summer.jpg","images/jt_quiz/tsvety.jpg" , "images/jt_quiz/patrick.jpg"]
 var text = [
-"Lorem ipsum dolor sit \
-amet, consectetur adipiscing elit, sed do eiu \
-smod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, \
- quis nostrud exercitation ullamco laboris nis i ut aliquip ex ea commodo consequat. \
- Duis aute irure dolor in reprehen derit in voluptate velit esse cillum dolore eu fugiat \
- nulla pariatur. Excepteur sint occaecat cupidatat non proident \
-  sunt in culpa qui officia deserunt mollit anim id est laborum.", "", "", "", "", 
+"Mama Mia! Some people might perceive you as cold and bitchy, but you are a literal cuddly ball of happiness! You have the most prominent cheek bones (which might be the reason why people mistake you for Maleficent, while you are actually one of the puffy animals). Your singing voice always leaves your flatmates with their mouth open. You are a night owl, and you do get shit done - without even complaining that you haven\'t slept for DAYS!",
+ "You have a cute and feminine personality. Kind of obsessed with boyz and kpop drama, you established yourself as the bubbly one of the group.", 
+ "You always feel like Gucci! You have amazing sense of personal style. You are graceful and beautiful. You are just as sweet as your favourite flavour of ice cream is. You always always share your sweet tooth cravings with us! Your family is just as amazing and nice as you are. You have amazing cooking skills and are determined to succeed! ",
+ "Your quirkiness and odd sense of humor raise some eyebrows but also spark a lot of laughter. You are always open for some banter and everlasting English hits. Keep it up, cheerios! ",
+ "'Uhm, is that vegetarian?' You are very conscious of your impact on the environment. Always up for some mulled wine and organic treats, you are the hipster one of the bunch.", 
   "You are a ray of sunshine! The real Chinese rapper girl: you got swag, you got style. You might struggle with finding the right words sometimes, but you always know how to properly diss your roommates. Chaos in the kitchen is your super power. You are compassionate and ready to help. You like hugs, even though you are reluctant to admit it.", 
   'You are the ultimate chill friend! You are always ready to listen to your friends\' problems, even though you rarely actually "hear" them. You do give good advice, although it\'s mostly through sleep talking. You are obsessed with Bulgarian yogurt and Japanese culture. You are one of the most organised and hard-working people we know.', 
-  ""
-
-
-]
+  "Are you even a resident here? You are mysterious and you barely make your presence felt. It's still unclear if you actually hate people or you just enjoy the loneliness of your room a little bit too much. "
+];
+  document.getElementById("results").style.display = "block";
 
 switch(item){
 	
@@ -116,5 +113,10 @@ switch(item){
 	break;
 }
 
+showChar()
+
 }
 
+function showChar() {
+  document.getElementById("all_char").style.display = "block";
+}

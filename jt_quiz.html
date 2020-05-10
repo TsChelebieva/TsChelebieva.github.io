@@ -1,593 +1,1218 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
+<!--
+	Phantom by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
 <html>
-<head>
-	<title>John Tovell Quiz</title>
-	<script src="quiz.js" type="text/javascript"></script>
-	<link rel="stylesheet" type="text/css" href="JT_Quiz/css.css">
-	<link rel="icon" href="img/93.png" type="image/x-icon">
-	<link href="https://fonts.googleapis.com/css?family=Raleway:400,900" rel="stylesheet">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<head>
+		<title>John Tovell House Quiz</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<script type="text/javascript" src="assets/jt_quiz/js/script.js"></script>
 
-</head>
-<body>
-	<div class = "wrapper">
-	<form id="form" name="form1">
-	<h1>Which John Tovell Kitchen 9321 Resident are you?</h1>
-	<img src="img/group.jpg" class = "group_img" >
-	<div class="photo" id="q_food">
-		<h2>Which food do you like most?</h2>
-		<div class="row">
-			<div class="column">
-				<label>
-				  <input type="radio" name="q1" value="Siana">
-				  <img src="img/waffles.jpg" class="image1 images_quiz">
-				</label>
-			</div>
-				<div class="column">
-					<label>
-						<input type="radio" name="q1" value="Kristine">
-						<img src="img/peanut.jpg" class="image1 images_quiz">
-					</label>
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	
+	<!-- Bootstrap jQuery & JS library -->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+	<!-- CSS -->
+	<link rel="stylesheet" type="text/css" href="assets/jt_quiz/css/hover-min.css">
+	<link rel="stylesheet" href="assets/css/main.css" />
+
+	<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+
+
+
+	</head>
+	<body class="is-preload">
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<div class="inner">
+
+							<!-- Logo -->
+								<a href="index.html" class="logo">
+									<span class="symbol"><img src="images/logo.svg" alt="" /></span><span class="title">Home</span>
+								</a>
+
+							<!-- Nav -->
+								<nav>
+									<ul>
+										<li><a href="#menu">Menu</a></li>
+									</ul>
+								</nav>
+
+						</div>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<h2>Menu</h2>
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="jt_quiz.html">John Tovell Quiz</a></li>
+							<li><a href="hgh_quiz.html">Helen Graham House Quiz</a></li>
+							<li><a href="generic.html">About</a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+	<div class = "container">
+		<div class="inner">
+							<header>
+								<h1> John Tovell House Quiz </h1>
+								<p>Find out what type of friend you are.</p>
+							</header>
+						</div>
+		<!--FIRST QUESTION -->
+		<fieldset id="field">
+			<legend>
+				<div class = "question-title">
+					<span>Which Food Do you Like Most?</span>
 				</div>
-				<div class="column">
-					<label>
-			  			<input type="radio" name="q1" value="Adela">
-			 			 <img src="img/Mamaliga.jpg" class="image1 images_quiz">
-					</label>
+			</legend>
+			<ul class = "row">
+
+				<!-- ANSWER 1 -->
+				<div class = "row">
+					<li class = "row-cols-5" role = "button">
+						<div role = "button">
+							<label>
+								<input type="radio" name="q1" value = "Siana"/>
+								<div class = "card box-shadow">
+									<div class = "crop">
+										<img src = "images/jt_quiz/q1/waffles.jpg" class = "hvr-grow answer_image">
+									</div>
+									<div class = "card-body">
+										<p class = "card-text">Waffles</p>
+									</div>
+								</div>
+							</label>
+						</div>
+					</li>
+
+					<!-- ANSWER 2 -->
+
+					<li class = "row-cols-5">
+						<div  role = "button">
+							<label>
+								<input type="radio" name="q1" value = "Kristine"/>
+								<div class = "card box-shadow">
+									<div class = "crop">
+										<img src = "images/jt_quiz/q1/peanut.jpg" class = "hvr-grow answer_image">
+									</div>
+									<div class = "card-body">
+										<p class = "card-text">PB&J Toast</p>
+									</div>
+								</div>
+							</label>
+						</div>
+					</li>
+
+					<!-- ANSWER 3 -->
+
+					<li class = "row-cols-5">
+						<div role = "button">
+							<label>
+								<input type="radio" name="q1" value = "Adela"/>
+								<div class = "card box-shadow">
+									<div class = "crop">
+										<img src = "images/jt_quiz/q1/Mamaliga.jpg" class = "hvr-grow answer_image">
+									</div>						
+									<div class = "card-body">
+										<p class = "card-text">Mamaliga</p>
+									</div>
+								</div>
+							</label>
+						</div>
+					</li>
+
+					<!-- ANSWER 4 -->
+
+					<li class = "row-cols-5">
+						<div role = "button">
+							<label>
+								<input type="radio" name="q1" value = "Jamie"/>
+								<div class = "card box-shadow">
+									<div class = "crop">
+										<img src = "images/jt_quiz/q1/eggs.jpg" class = "hvr-grow answer_image">
+									</div>						
+									<div class = "card-body">
+										<p class = "card-text">Scrambled Eggs and Grapes</p>
+									</div>
+								</div>
+							</label>
+						</div>
+					</li>
+					<!-- ANSWER 5 -->
+
+					<li class = "row-cols-5">
+						<div role = "button">
+							<label>
+								<input type="radio" name="q1" value = "Candice"/>
+								<div class = "card box-shadow">
+									<div class = "crop">
+										<img src = "images/jt_quiz/q1/purple_rice.jpg" class = "hvr-grow answer_image">
+									</div>
+									<div class = "card-body">
+										<p class = "card-text">Rice from a Package</p>
+									</div>
+								</div>
+							</label>
+						</div>
+					</li>
+
+					<!-- ANSWER 6 -->
+					<li class = "row-cols-5">
+						<div role = "button">
+							<label>
+								<input type="radio" name="q1" value = "Tsvety"/>
+								<div class = "card box-shadow">
+									<div class = "crop">
+										<img src = "images/jt_quiz/q1/oatmeal.jpg" class = "hvr-grow answer_image">
+									</div>
+									<div class = "card-body">
+										<p class = "card-text">Oatmeal</p>
+									</div>
+								</div>
+							</label>
+						</div>
+					</li>
+					
+					<!-- ANSWER 7 -->
+
+					<li class = "row-cols-5">
+						<div role = "button">
+							<label>
+								<input type="radio" name="q1" value = "Summer"/>
+								<div class = "card box-shadow">
+									<div class = "crop">
+										<img src = "images/jt_quiz/q1/granola.jpg" class = "hvr-grow answer_image">
+									</div>
+									<div class = "card-body">
+										<p class = "card-text">Granola</p>
+									</div>
+								</div>
+							</label>
+						</div>
+					</li>
+					<!-- ANSWER 8 -->
+					<li class = "row-cols-5">
+						<div role = "button">
+							<label>
+								<input type="radio" name="q1" value = "Patrick"/>
+								<div class = "card box-shadow">
+									<div class = "crop">
+										<img src = "images/jt_quiz/q1/bread.jpg" class = "hvr-grow answer_image">
+									</div>
+									<div class = "card-body">
+										<p class = "card-text">Stale Bread</p>
+									</div>
+								</div>
+							</label>
+						</div>
+					</li>
 				</div>
-				<div class="column">
-					<label>
-						<input type="radio" name="q1" value="Jamie">
-						<img src="img/eggs.jpg" class="image1 images_quiz">
-					</label>
-			</div>
-		</div>
-		<div class="row">
-						<div class="column">
-				<label>
-					<input type="radio" name="q1" value="Candice">
-					<img src="img/purple_rice.jpg" class="image1 images_quiz">
-				</label>
-			</div>
-			<div class="column">
-				<label>
-					<input type="radio" name="q1" value="Tsvety">
-					<img src="img/oatmeal.jpg" class="image1 images_quiz">
-				</label>
-			</div>			
-			<div class="column">
-				<label>
-					<input type="radio" name="q1" value="Summer">
-					<img src="img/granola.jpg" class="image1 images_quiz">
-				</label>
-			</div>
+			</ul>
+		</fieldset>
 
-			<div class="column">
-				<label>
-					<input type="radio" name="q1" value="Patrick">
-					<img src="img/bread.jpg" class="image1 images_quiz">
-				</label>
-			</div>
-		</div>
+		<!-- SECOND QUESTION -->
+		<fieldset id="field">
+			<legend>
+				<div class = "question-title">
+					<span>Which Food Do you Like Most?</span>
+				</div>
+			</legend>
+			<ul class = "row">
+
+				<!-- ANSWER 1 -->
+				<div class = "row">
+					<li class = "row-cols-5" role = "button">
+						<div role = "button">
+							<label>
+								<input type="radio" name="q2" value = "Patrick"/>
+								<div class = "card box-shadow">
+									<div class = "crop">
+										<img src = "images/jt_quiz/q2/cola.jpg" class = "hvr-grow answer_image">
+									</div>
+									<div class = "card-body">
+										<p class = "card-text">Cola</p>
+									</div>
+								</div>
+							</label>
+						</div>
+					</li>
+
+					<!-- ANSWER 2 -->
+
+					<li class = "row-cols-5">
+						<div  role = "button">
+							<label>
+								<input type="radio" name="q2" value = "Adela"/>
+								<div class = "card box-shadow">
+									<div class = "crop">
+										<img src = "images/jt_quiz/q2/amaretto.jpg" class = "hvr-grow answer_image">
+									</div>
+									<div class = "card-body">
+										<p class = "card-text">Amaretto Sour</p>
+									</div>
+								</div>
+							</label>
+						</div>
+					</li>
+
+					<!-- ANSWER 3 -->
+
+					<li class = "row-cols-5">
+						<div role = "button">
+							<label>
+								<input type="radio" name="q2" value = "Candice"/>
+								<div class = "card box-shadow">
+									<div class = "crop">
+										<img src = "images/jt_quiz/q2/tea.jpg" class = "hvr-grow answer_image">
+									</div>						
+									<div class = "card-body">
+										<p class = "card-text">Tea</p>
+									</div>
+								</div>
+							</label>
+						</div>
+					</li>
+
+					<!-- ANSWER 4 -->
+
+					<li class = "row-cols-5">
+						<div role = "button">
+							<label>
+								<input type="radio" name="q2" value = "Tsvety"/>
+								<div class = "card box-shadow">
+									<div class = "crop">
+										<img src = "images/jt_quiz/q2/water.jpg" class = "hvr-grow answer_image">
+									</div>						
+									<div class = "card-body">
+										<p class = "card-text">Water</p>
+									</div>
+								</div>
+							</label>
+						</div>
+					</li>
+					<!-- ANSWER 5 -->
+
+					<li class = "row-cols-5">
+						<div role = "button">
+							<label>
+								<input type="radio" name="q2" value = "Kristine"/>
+								<div class = "card box-shadow">
+									<div class = "crop">
+										<img src = "images/jt_quiz/q2/wine.jpg" class = "hvr-grow answer_image">
+									</div>
+									<div class = "card-body">
+										<p class = "card-text">Mulled Wine</p>
+									</div>
+								</div>
+							</label>
+						</div>
+					</li>
+
+					<!-- ANSWER 6 -->
+					<li class = "row-cols-5">
+						<div role = "button">
+							<label>
+								<input type="radio" name="q2" value = "Summer"/>
+								<div class = "card box-shadow">
+									<div class = "crop">
+										<img src = "images/jt_quiz/q2/noodle.jpg" class = "hvr-grow answer_image">
+									</div>
+									<div class = "card-body">
+										<p class = "card-text">Noodle Broth</p>
+									</div>
+								</div>
+							</label>
+						</div>
+					</li>
+					
+					<!-- ANSWER 7 -->
+
+					<li class = "row-cols-5">
+						<div role = "button">
+							<label>
+								<input type="radio" name="q2" value = "Jamie"/>
+								<div class = "card box-shadow">
+									<div class = "crop">
+										<img src = "images/jt_quiz/q2/vodka.jpg" class = "hvr-grow answer_image">
+									</div>
+									<div class = "card-body">
+										<p class = "card-text">Tesco Value Vodka</p>
+									</div>
+								</div>
+							</label>
+						</div>
+					</li>
+					<!-- ANSWER 8 -->
+					<li class = "row-cols-5">
+						<div role = "button">
+							<label>
+								<input type="radio" name="q2" value = "Siana"/>
+								<div class = "card box-shadow">
+									<div class = "crop">
+										<img src = "images/jt_quiz/q2/bubbletea.jpg" class = "hvr-grow answer_image">
+									</div>
+									<div class = "card-body">
+										<p class = "card-text"> Bubble Tea</p>
+									</div>
+								</div>
+							</label>
+						</div>
+					</li>
+				</div>
+			</ul>
+		</fieldset>
+
+
+		<!-- THIRD QUESTION !-->
+		<fieldset>
+			<legend>
+				<div class = "question-title">
+					<span>Which Phrase are You Most Likely to Say?</span>
+				</div>
+			</legend>
+			<ul class = "row">
+
+				<!-- ANSWER 1 -->
+				<div class = "row">
+					<li class = "row-cols-5" role = "button">
+						<div role = "button">
+							<label>
+								<input type="radio" name="q3" value = "Jamie"/>
+								<div class = "card box-shadow">
+									<div class = "card-body crop alt-card-body">
+										<p class = "card-text alt-card" >"Eee"</p>
+									</div>
+								</div>
+							</label>
+						</div>
+					</li>
+
+					<!-- ANSWER 2 -->
+
+					<li class = "row-cols-5">
+
+						<div  role = "button">
+							<label>
+								<input type="radio" name="q3" value = "Tsvety"/>
+								<div class = "card box-shadow">
+									<div class = "card-body crop alt-card-body">
+										<p class = "card-text alt-card">"Did you know that..."</p>
+									</div>
+								</div>
+							</label>
+						</div>
+					</li>
+
+					<!-- ANSWER 3 -->
+
+					<li class = "row-cols-5">
+						<div role = "button">
+							<label>
+								<input type="radio" name="q3" value = "Siana"/>
+								<div class = "card box-shadow">
+									<div class = "card-body crop alt-card-body">
+										<p class = "card-text alt-card">"Watashi no sensei ga suki desu"</p>
+									</div>						
+								</div>
+							</label>
+						</div>
+					</li>
+
+					<!-- ANSWER 4 -->
+
+					<li class = "row-cols-5">
+						<div role = "button">
+							<label>
+								<input type="radio" name="q3" value = "Patrick"/>
+								<div class = "card box-shadow">
+									<div class = "card-body crop alt-card-body">
+										<p class = "card-text alt-card">Nothing</p>
+									</div>						
+								</div>
+							</label>
+						</div>
+					</li>
+					<!-- ANSWER 5 -->
+
+					<li class = "row-cols-5">
+						<div role = "button">
+							<label>
+								<input type="radio" name="q3" value = "Candice"/>
+								<div class = "card box-shadow">
+									<div class = "card-body crop alt-card-body">
+										<p class = "card-text alt-card"> "Heeeyyyy"</p>
+									</div>
+								</div>
+							</label>
+						</div>
+					</li>
+
+					<!-- ANSWER 6 -->
+
+					<li class = "row-cols-5">
+						<div role = "button">
+							<label>
+								<input type="radio" name="q3" value = "Adela"/>
+								<div class = "card box-shadow">
+									<div class = "card-body crop alt-card-body">
+										<p class = "card-text alt-card">"I want a boyfriend"</p>
+									</div>
+								</div>
+							</label>
+						</div>
+					</li>
+					
+					<!-- ANSWER 7 -->
+
+					<li class = "row-cols-5">
+						<div role = "button">
+							<label>
+								<input type="radio" name="q3" value = "Kristine"/>
+								<div class = "card box-shadow">
+									<div class = "card-body crop alt-card-body">
+										<p class = "card-text alt-card">"I need a nap"</p>
+									</div>
+								</div>
+							</label>
+						</div>
+					</li>
+					<!-- ANSWER 8 -->
+					<li class = "row-cols-5">
+						<div role = "button">
+							<label>
+								<input type="radio" name="q3" value = "Summer"/>
+								<div class = "card box-shadow">
+									<div class = "card-body crop alt-card-body">
+										<p class = "card-text alt-card">"Matskaa"</p>
+									</div>
+								</div>
+							</label>
+						</div>
+					</li>
+				</div>
+			</ul>
+		</fieldset>
+
+		<!-- FOURTH QUESTION -->
+		<fieldset>
+			<legend>
+				<div class = "question-title">
+					<span>What is Your Jam?</span>
+				</div>
+			</legend>
+			<ul class = "row">
+
+				<!-- ANSWER 1 -->
+				<div class = "row">
+					<li class = "row-cols-5" role = "button">
+						<div role = "button">
+							<label>
+								<input type="radio" name="q4" value = "Candice"/>
+								<div class = "card box-shadow">
+									<div class = "crop">
+										<img src = "images/jt_quiz/q4/korean.jpg" class = "hvr-grow answer_image">
+									</div>
+									<div class = "card-body">
+										<p class = "card-text">Kdrama OST</p>
+									</div>
+								</div>
+							</label>
+						</div>
+					</li>
+
+					<!-- ANSWER 2 -->
+
+					<li class = "row-cols-5">
+
+						<div  role = "button">
+							<label>
+								<input type="radio" name="q4" value = "Siana"/>
+								<div class = "card box-shadow">
+									<div class = "crop">
+										<img src = "images/jt_quiz/q4/shawn.jpg" class = "hvr-grow answer_image">
+									</div>
+									<div class = "card-body">
+										<p class = "card-text">Shawn Mendes - Lost in Japan</p>
+									</div>
+								</div>
+							</label>
+						</div>
+					</li>
+
+					<!-- ANSWER 3 -->
+
+					<li class = "row-cols-5">
+						<div role = "button">
+							<label>
+								<input type="radio" name="q4" value = "Tsvety"/>
+								<div class = "card box-shadow">
+									<div class = "crop">
+										<img src = "images/jt_quiz/q4/nightcore.jpg" class = "hvr-grow answer_image">
+									</div>						
+									<div class = "card-body">
+										<p class = "card-text">Nightcore</p>
+									</div>
+								</div>
+							</label>
+						</div>
+					</li>
+
+					<!-- ANSWER 4 -->
+
+					<li class = "row-cols-5">
+						<div role = "button">
+							<label>
+								<input type="radio" name="q4" value = "Jamie"/>
+								<div class = "card box-shadow">
+									<div class = "crop">
+										<img src = "images/jt_quiz/q4/baby.jpg" class = "hvr-grow answer_image">
+									</div>						
+									<div class = "card-body">
+										<p class = "card-text">Frank Sinatra - I Love you Baby</p>
+									</div>
+								</div>
+							</label>
+						</div>
+					</li>
+					<!-- ANSWER 5 -->
+
+					<li class = "row-cols-5">
+						<div role = "button">
+							<label>
+								<input type="radio" name="q4" value = "Kristine"/>
+								<div class = "card box-shadow">
+									<div class = "crop">
+										<img src = "images/jt_quiz/q4/redvelvet.jpg" class = "hvr-grow answer_image">
+									</div>
+									<div class = "card-body">
+										<p class = "card-text">Red Velvet</p>
+									</div>
+								</div>
+							</label>
+						</div>
+					</li>
+
+					<!-- ANSWER 6 -->
+
+					<li class = "row-cols-5">
+						<div role = "button">
+							<label>
+								<input type="radio" name="q4" value = "Summer"/>
+								<div class = "card box-shadow">
+									<div class = "crop">
+										<img src = "images/jt_quiz/q4/exo.jpg" class = "hvr-grow answer_image">
+									</div>
+									<div class = "card-body">
+										<p class = "card-text">EXO</p>
+									</div>
+								</div>
+							</label>
+						</div>
+					</li>
+					
+					<!-- ANSWER 7 -->
+
+					<li class = "row-cols-5">
+						<div role = "button">
+							<label>
+								<input type="radio" name="q4" value = "Patrick"/>
+								<div class = "card box-shadow">
+									<div class = "crop">
+										<img src = "images/jt_quiz/q4/house.jpg" class = "hvr-grow answer_image">
+									</div>
+									<div class = "card-body">
+										<p class = "card-text">House Music</p>
+									</div>
+								</div>
+							</label>
+						</div>
+					</li>
+					<!-- ANSWER 8 -->
+					<li class = "row-cols-5">
+						<div role = "button">
+							<label>
+								<input type="radio" name="q4" value = "Adela"/>
+								<div class = "card box-shadow">
+									<div class = "crop">
+										<img src = "images/jt_quiz/q4/thanku.png" class = "hvr-grow answer_image">
+									</div>
+									<div class = "card-body">
+										<p class = "card-text">Thank You, Next - Ariana Grande</p>
+									</div>
+								</div>
+							</label>
+						</div>
+					</li>
+				</div>
+			</ul>
+		</fieldset>
+
+		<!-- FIFTH QUESTION !-->
+		<fieldset>
+			<legend>
+				<div class = "question-title">
+					<span>What Clothing Best Describes You?</span>
+				</div>
+			</legend>
+			<ul class = "row">
+
+				<!-- ANSWER 1 -->
+				<div class = "row">
+					<li class = "row-cols-5" role = "button">
+						<div role = "button">
+							<label>
+								<input type="radio" name="q5" value = "Kristine"/>
+								<div class = "card box-shadow">
+									<div class = "crop">
+										<img src = "images/jt_quiz/q5/urban.jpg" class = "hvr-grow answer_image">
+									</div>
+									<div class = "card-body">
+										<p class = "card-text">Anything from Urban Outfitters</p>
+									</div>
+								</div>
+							</label>
+						</div>
+					</li>
+
+					<!-- ANSWER 2 -->
+
+					<li class = "row-cols-5">
+
+						<div  role = "button">
+							<label>
+								<input type="radio" name="q5" value = "Patrick"/>
+								<div class = "card box-shadow">
+									<div class = "crop">
+										<img src = "images/jt_quiz/q5/slippers.jpg" class = "hvr-grow answer_image">
+									</div>
+									<div class = "card-body">
+										<p class = "card-text">Slippers</p>
+									</div>
+								</div>
+							</label>
+						</div>
+					</li>
+
+					<!-- ANSWER 3 -->
+
+					<li class = "row-cols-5">
+						<div role = "button">
+							<label>
+								<input type="radio" name="q5" value = "Summer"/>
+								<div class = "card box-shadow">
+									<div class = "crop">
+										<img src = "images/jt_quiz/q5/bucket.jpg" class = "hvr-grow answer_image">
+									</div>						
+									<div class = "card-body">
+										<p class = "card-text">Bucket Hat</p>
+									</div>
+								</div>
+							</label>
+						</div>
+					</li>
+
+					<!-- ANSWER 4 -->
+
+					<li class = "row-cols-5">
+						<div role = "button">
+							<label>
+								<input type="radio" name="q5" value = "Jamie"/>
+								<div class = "card box-shadow">
+									<div class = "crop">
+										<img src = "images/jt_quiz/q5/slipon.jpg" class = "hvr-grow answer_image">
+									</div>						
+									<div class = "card-body">
+										<p class = "card-text">Slip-On Shoes</p>
+									</div>
+								</div>
+							</label>
+						</div>
+					</li>
+					<!-- ANSWER 5 -->
+
+					<li class = "row-cols-5">
+						<div role = "button">
+							<label>
+								<input type="radio" name="q5" value = "Adela"/>
+								<div class = "card box-shadow">
+									<div class = "crop">
+										<img src = "images/jt_quiz/q5/boots.jpeg" class = "hvr-grow answer_image">
+									</div>
+									<div class = "card-body">
+										<p class = "card-text">Brown Boots</p>
+									</div>
+								</div>
+							</label>
+						</div>
+					</li>
+
+					<!-- ANSWER 6 -->
+
+					<li class = "row-cols-5">
+						<div role = "button">
+							<label>
+								<input type="radio" name="q5" value = "Tsvety"/>
+								<div class = "card box-shadow">
+									<div class = "crop">
+										<img src = "images/jt_quiz/q5/leather.jpg" class = "hvr-grow answer_image">
+									</div>
+									<div class = "card-body">
+										<p class = "card-text">Leather Jacket</p>
+									</div>
+								</div>
+							</label>
+						</div>
+					</li>
+					
+					<!-- ANSWER 7 -->
+
+					<li class = "row-cols-5">
+						<div role = "button">
+							<label>
+								<input type="radio" name="q5" value = "Siana"/>
+								<div class = "card box-shadow">
+									<div class = "crop">
+										<img src = "images/jt_quiz/q5/burgundy.png" class = "hvr-grow answer_image">
+									</div>
+									<div class = "card-body">
+										<p class = "card-text">Everything Burgundy</p>
+									</div>
+								</div>
+							</label>
+						</div>
+					</li>
+					<!-- ANSWER 8 -->
+					<li class = "row-cols-5">
+						<div role = "button">
+							<label>
+								<input type="radio" name="q5" value = "Candice"/>
+								<div class = "card box-shadow">
+									<div class = "crop">
+										<img src = "images/jt_quiz/q5/gucci.jpg" class = "hvr-grow answer_image">
+									</div>
+									<div class = "card-body">
+										<p class = "card-text">Gucci Scarf</p>
+									</div>
+								</div>
+							</label>
+						</div>
+					</li>
+				</div>
+			</ul>
+		</fieldset>
+
+		<!-- SIXTH QUESTION !-->
+			<fieldset>
+			<legend>
+				<div class = "question-title">
+					<span>Choose a GIF</span>
+				</div>
+			</legend>
+			<ul class = "row">
+
+				<!-- ANSWER 1 -->
+				<div class = "row">
+					<li class = "row-cols-5" role = "button">
+						<div role = "button">
+							<label>
+								<input type="radio" name="q6" value = "Tsvety"/>
+								<div class = "card box-shadow">
+									<div class = "crop alt-card-body">
+										<img src = "images/jt_quiz/q6/confused.gif" class = "hvr-grow answer_image">
+									</div>
+								</div>
+							</label>
+						</div>
+					</li>
+
+					<!-- ANSWER 2 -->
+
+					<li class = "row-cols-5">
+
+						<div  role = "button">
+							<label>
+								<input type="radio" name="q6" value = "Adela"/>
+								<div class = "card box-shadow">
+									<div class = "crop alt-card-body">
+										<img src = "images/jt_quiz/q6/cardi.gif" class = "hvr-grow answer_image">
+									</div>
+								</div>
+							</label>
+						</div>
+					</li>
+
+					<!-- ANSWER 3 -->
+
+					<li class = "row-cols-5">
+						<div role = "button">
+							<label>
+								<input type="radio" name="q6" value = "Jamie"/>
+								<div class = "card box-shadow">
+									<div class = "crop alt-card-body">
+										<img src = "images/jt_quiz/q6/theresa.gif" class = "hvr-grow answer_image">
+									</div>						
+								</div>
+							</label>
+						</div>
+					</li>
+
+					<!-- ANSWER 4 -->
+
+					<li class = "row-cols-5">
+						<div role = "button">
+							<label>
+								<input type="radio" name="q6" value = "Candice"/>
+								<div class = "card box-shadow">
+									<div class = "crop alt-card-body">
+										<img src = "images/jt_quiz/q6/cute.gif" class = "hvr-grow answer_image">
+									</div>						
+								</div>
+							</label>
+						</div>
+					</li>
+					<!-- ANSWER 5 -->
+
+					<li class = "row-cols-5">
+						<div role = "button">
+							<label>
+								<input type="radio" name="q6" value = "Summer"/>
+								<div class = "card box-shadow">
+									<div class = "crop alt-card-body">
+										<img src = "images/jt_quiz/q6/rap.gif" class = "hvr-grow answer_image">
+									</div>
+								</div>
+							</label>
+						</div>
+					</li>
+
+					<!-- ANSWER 6 -->
+
+					<li class = "row-cols-5">
+						<div role = "button">
+							<label>
+								<input type="radio" name="q6" value = "Siana"/>
+								<div class = "card box-shadow">
+									<div class = "crop alt-card-body">
+										<img src = "images/jt_quiz/q6/siana.gif" class = "hvr-grow answer_image">
+									</div>
+								</div>
+							</label>
+						</div>
+					</li>
+					
+					<!-- ANSWER 7 -->
+
+					<li class = "row-cols-5">
+						<div role = "button">
+							<label>
+								<input type="radio" name="q6" value = "Kristine"/>
+								<div class = "card box-shadow">
+									<div class = "crop alt-card-body">
+										<img src = "images/jt_quiz/q6/organic.gif" class = "hvr-grow answer_image">
+									</div>
+
+								</div>
+							</label>
+						</div>
+					</li>
+					<!-- ANSWER 8 -->
+					<li class = "row-cols-5">
+						<div role = "button">
+							<label>
+								<input type="radio" name="q6" value = "Patrick"/>
+								<div class = "card box-shadow">
+									<div class = "crop alt-card-body">
+										<img src = "images/jt_quiz/q6/404.gif" class = "hvr-grow answer_image">
+									</div>
+
+								</div>
+							</label>
+						</div>
+					</li>
+				</div>
+			</ul>
+		</fieldset>
+
+		<!-- SEVENTH QUESTION !-->
+		<fieldset>
+			<legend>
+				<div class = "question-title">
+					<span>Which Phrase are You Most Likely to Say?</span>
+				</div>
+			</legend>
+			<ul class = "row">
+
+				<!-- ANSWER 1 -->
+				<div class = "row">
+					<li class = "row-cols-5" role = "button">
+						<div role = "button">
+							<label>
+								<input type="radio" name="q7" value = "Adela"/>
+								<div class = "card box-shadow">
+									<div class = "card-body crop alt-card-body">
+										<p class = "card-text alt-card" >Watch Youtube Videos</p>
+									</div>
+								</div>
+							</label>
+						</div>
+					</li>
+
+					<!-- ANSWER 2 -->
+
+					<li class = "row-cols-5">
+
+						<div  role = "button">
+							<label>
+								<input type="radio" name="q7" value = "Siana"/>
+								<div class = "card box-shadow">
+									<div class = "card-body crop alt-card-body">
+										<p class = "card-text alt-card">Eat While Watching Two and a Half Men</p>
+									</div>
+								</div>
+							</label>
+						</div>
+					</li>
+
+					<!-- ANSWER 3 -->
+
+					<li class = "row-cols-5">
+						<div role = "button">
+							<label>
+								<input type="radio" name="q7" value = "Candice"/>
+								<div class = "card box-shadow">
+									<div class = "card-body crop alt-card-body">
+										<p class = "card-text alt-card">Filter Water</p>
+									</div>						
+								</div>
+							</label>
+						</div>
+					</li>
+
+					<!-- ANSWER 4 -->
+
+					<li class = "row-cols-5">
+						<div role = "button">
+							<label>
+								<input type="radio" name="q7" value = "Jamie"/>
+								<div class = "card box-shadow">
+									<div class = "card-body crop alt-card-body">
+										<p class = "card-text alt-card">Stay in the Kitchen</p>
+									</div>						
+								</div>
+							</label>
+						</div>
+					</li>
+					<!-- ANSWER 5 -->
+
+					<li class = "row-cols-5">
+						<div role = "button">
+							<label>
+								<input type="radio" name="q7" value = "Kristine"/>
+								<div class = "card box-shadow">
+									<div class = "card-body crop alt-card-body">
+										<p class = "card-text alt-card"> Buy Things I Don't Need</p>
+									</div>
+								</div>
+							</label>
+						</div>
+					</li>
+
+					<!-- ANSWER 6 -->
+
+					<li class = "row-cols-5">
+						<div role = "button">
+							<label>
+								<input type="radio" name="q7" value = "Summer"/>
+								<div class = "card box-shadow">
+									<div class = "card-body crop alt-card-body">
+										<p class = "card-text alt-card">Cause Microwave Explosions</p>
+									</div>
+								</div>
+							</label>
+						</div>
+					</li>
+					
+					<!-- ANSWER 7 -->
+
+					<li class = "row-cols-5">
+						<div role = "button">
+							<label>
+								<input type="radio" name="q7" value = "Tsvety"/>
+								<div class = "card box-shadow">
+									<div class = "card-body crop alt-card-body">
+										<p class = "card-text alt-card">Play Duolingo</p>
+									</div>
+								</div>
+							</label>
+						</div>
+					</li>
+					<!-- ANSWER 8 -->
+					<li class = "row-cols-5">
+						<div role = "button">
+							<label>
+								<input type="radio" name="q7" value = "Patrick"/>
+								<div class = "card box-shadow">
+									<div class = "card-body crop alt-card-body">
+										<p class = "card-text alt-card">Mystery</p>
+									</div>
+								</div>
+							</label>
+						</div>
+					</li>
+				</div>
+			</ul>
+		</fieldset>
+
+<div class = "text-center">
+		<button type="submit" value="Submit" onclick="totalResult()">View Results</button>
 	</div>
+<div id = "results" style="display: none">
+				<div class = "card-char box-shadow">
+					<div class = "crop-char">
+						<img class = "answer_image" id = "result_image">
+					</div>
+					<div class = "card-body">
+					<h2 id = "result_winner"></h2>
+					<p class = "card-text" id="result_par"></p>
+				</div>
+				</div>
+			</div>
 
-	<div class="photo q_drink">
-		<h2>What's your favourite drink?</h2>
-		<div class="row">
-			<div class="column">
-				<label>
-					<input type="radio" name="q2" value="Patrick">
-					<img src="img/cola.jpg" class="image2 images_quiz">
-				</label>
-			</div>
-			<div class="column">
-				<label>
-					<input type="radio" name="q2" value="Adela">
-					<img src="img/amaretto.jpg" class = "image2 images_quiz">
-				</label>
-			</div>
-			
-			<div class="column">
-				<label>
-					<input type="radio" name="q2" value="Candice">
-					<img src="img/tea.jpg" class = "image2 images_quiz">
-				</label>
-			</div>
-			<div class="column">
-				<label>
-					<input type="radio" name="q2" value="Tsvety">
-					<img src="img/water.jpg" class="image2 images_quiz">
-				</label>
-			</div>
-		</div>
-		<div class="row">
-			<div class="column">
-				<label>
-					<input type="radio" name="q2" value="Kristine">
-					<img src="img/wine.jpg" class="image2 images_quiz">
-				</label>
-			</div>
-			<div class="column">
-				<label>
-					<input type="radio" name="q2" value="Summer">
-					<img src="img/noodle.jpg" class="image2 images_quiz">
-				</label>
-			</div>
-			<div class="column">
-				<label>
-					<input type="radio" name="q2" value="Jamie">
-					<img src="img/vodka.jpg" class = "image2 images_quiz">
-				</label>
-			</div>			
-
-			<div class="column">
-				<label>
-					<input type="radio" name="q2" value="Siana">
-					<img src="img/bubbletea.jpg" class = "image2 images_quiz">
-				</label>
-			</div>			
-			
-		</div>
+<div id = "all_char" style= "display: none">
+	<h1>See All of Jonh Tovell's Characters </h1>
+	<div id="main">
+		<ul class = "row">
+			<li class = "row-cols-5">
+				<div>
+					<div class = "card-char box-shadow">
+						<div class = "crop-char">
+							<img src = "images/HGH/Adela.png" class = "answer_image">
+						</div>
+					<div class= "card-body">
+						<h2>Adela</h2>
+						<p class = "card-text">Mama Mia! Some people might perceive you as cold and bitchy, but you are a literal cuddly ball of happiness! You have the most prominent cheek bones (which might be the reason why people mistake you for Maleficent, while you are actually one of the puffy animals). Your singing voice always leaves your flatmates with their mouth open. You are a night owl, and you do get shit done - without even complaining that you haven't slept for DAYS!</p>
+					</div>
+					</div>
+				</div>
+			</li>
+			<li class = "row-cols-5">
+				<div>
+					<div class = "card-char box-shadow">
+						<div class = "crop-char">
+							<img src = "images/HGH/Ana.jpg" class = "answer_image">
+						</div>
+					<div class= "card-body">
+						<h2>Candice</h2>
+						<p class = "card-text">You always feel like Gucci! You have amazing sense of personal style. You are graceful and beautiful. You are just as sweet as your favourite flavour of ice cream is. You always always share your sweet tooth cravings with us! Your family is just as amazing and nice as you are. You have amazing cooking skills and are determined to succeed!</p>
+					</div>
+					</div>
+				</div>
+			</li>
+			<li class = "row-cols-5">
+				<div>
+					<div class = "card-char box-shadow">
+						<div class = "crop-char">
+							<img src = "images/HGH/Hareem.jpg" class = "answer_image">
+						</div>
+					<div class= "card-body">
+						<h2>Jamie</h2>
+						<p class = "card-text">You are the chill friend, minding your business, but there when someone needs to talk. A great breakfast buddy to talk about oats and yoghurt with.</p>
+					</div>
+					</div>
+				</div>
+			</li>
+			<li class = "row-cols-5">
+				<div>
+					<div class = "card-char box-shadow">
+						<div class = "crop-char">
+							<img src = "images/HGH/Jenny.jpg" class = "answer_image">
+						</div>
+					<div class= "card-body">
+						<h2>Kristine</h2>
+						<p class = "card-text">'Uhm, is that vegetarian?' You are very conscious of your impact on the environment. Always up for some mulled wine and organic treats, you are the hipster one of the bunch.</p>
+					</div>
+					</div>
+				</div>
+			</li>
+			<li class = "row-cols-5">
+				<div>
+					<div class = "card-char box-shadow">
+						<div class = "crop-char">
+							<img src = "images/HGH/Maria.jpg" class = "answer_image">
+						</div>
+					<div class= "card-body">
+						<h2>Patrick</h2>
+						<p class = "card-text">Are you even a resident here? You are mysterious and you barely make your presence felt. It's still unclear if you actually hate people or you just enjoy the loneliness of your room a little bit too much.</p>
+					</div>
+					</div>
+				</div>
+			</li>
+			<li class = "row-cols-5">
+				<div>
+					<div class = "card-char box-shadow">
+						<div class = "crop-char">
+							<img src = "images/HGH/Roberta.jpg" class = "answer_image">
+						</div>
+					<div class= "card-body">
+						<h2>Siana</h2>
+						<p class = "card-text">You are the quiet friend. You like sharing your mom’s cooking with friends and you always put up with all of our bullshit. You are the most reliable party navigator and the party is just not the same without you.</p>
+					</div>
+					</div>
+				</div>
+			</li>
+			<li class = "row-cols-5">
+				<div>
+					<div class = "card-char box-shadow">
+						<div class = "crop-char">
+							<img src = "images/HGH/Siana.jpg" class = "answer_image">
+						</div>
+					<div class= "card-body">
+						<h2>Summer</h2>
+						<p class = "card-text">You are the bubbly one of the group. You burst into the kitchen always matchy-matchy and ready to entertain with your love stories, but also empathically listen to everyone's problems and educate on toxic men.</p>
+					</div>
+					</div>
+				</div>
+			</li>
+			<li class = "row-cols-5">
+				<div>
+					<div class = "card-char box-shadow">
+						<div class = "crop-char">
+							<img src = "images/HGH/Tanvi.jpg" class = "answer_image">
+						</div>
+					<div class= "card-body">
+						<h2>Tsvety</h2>
+						<p class = "card-text">You are the bully friend of the group. You enjoy other people’s (Jenny) pain, but also like giving. You are curious, and a great conversation partner, especially when it comes to politics or any other serious topics.</p>
+					</div>
+					</div>
+				</div>
+			</li>
+		</ul>
 	</div>
-	<div>
-		<h2>Which phrase are you most likely to say?</h2>
-		<div class="row">
-			<div class="text column">
-				<input type="radio" name="q3" value="Jamie" id="eee">
-				<label for="eee" class="text_input input1">"Eee"</label>
-			</div>
-			<div class="text column">
-				<input type="radio" name="q3" value="Tsvety" id="know">
-				<label for="know" class="text_input input1">"Did you know that..."</label>
-			</div>						
-			<div class="text column">
-				<input type="radio" name="q3" value="Siana" id="sensei">
-				<label for="sensei" class="text_input input1">"Watashi no sensei ga suki desu"</label>
-			</div>
-			<div class="text column">
-				<input type="radio" name="q3" value="Patrick" id="silence">
-				<label for="silence" class="text_input input1">Silence</label>
-			</div>			
-		</div>
-		<div class="row">
-			<div class="text column">
-				<input type="radio" name="q3" value="Candice" id="hey">
-				<label for="hey" class="text_input input1">"Heeeyyy"</label>
-			</div>
-
-			<div class="text column">
-				<input type="radio" name="q3" value="Adela" id="boyfriend">
-				<label for="boyfriend" class="text_input input1">"I want a boyfriend"</label>
-			</div>
-			<div class="text column">
-				<input type="radio" name="q3" value="Kristine" id="boxes">
-				<label for="boxes" class="text_input input1">"I need a nap"</label>				
-			</div>			
-			<div class="text column">
-				<input type="radio" name="q3" value="Summer" id="funny">
-				<label for="funny" class="text_input input1">"Matskaaa"</label>
-			</div>
-		</div>
-	</div>
-	<div class="photo">
-		<h2>What is your jam?</h2>
-		<div class="row">
-			<div class="column">
-				<label>
-					<input type = "radio" name="q4" value = "Candice">
-					<img src="img/korean.jpg" class="image3 images_quiz">
-				</label>
-			</div>
-
-			<div class="column"> 
-				<label>
-					<input type="radio" name="q4" value = "Siana">
-					<img src="img/shawn.jpg" class="image3 images_quiz">
-				</label>
-			</div>
-			<div class = "column">
-				<label>
-					<input type = "radio" name = "q4" value = "Tsvety">
-					<img src="img/nightcore.jpg" class="image3 images_quiz">
-				</label>
-			</div>
-			<div class="column">
-				<label>
-					<input type="radio" name="q4" value = "Jamie">
-					<img src="img/baby.jpg" class="image3 images_quiz">
-				</label>
-			</div>
-		</div>
-		<div class = "row">
-			<div class = "column">
-				<label>
-					<input type = "radio" name = "q4" value = "Kristine">
-					<img src="img/redvelvet.jpg" class="image3 images_quiz">
-				</label>
-			</div>
-			<div class = "column">
-				<label>
-					<input type = "radio" name = "q4" value = "Summer">
-					<img src="img/exo.jpg" class="image3 images_quiz">
-				</label>
-			</div>
-			<div class = "column">
-				<label>
-					<input type = "radio" name = "q4" value = "Patrick">
-					<img src = "img/house.jpg" class="image3 images_quiz">
-				</label>
-			</div>
-			<div class="column">
-				<label>
-					<input type = "radio" name="q4" value = "Adela">
-					<img src="img/thanku.jpg" class="image3 images_quiz">
-				</label>
-			</div>			
-		</div>
-	</div>
-	<div class="photo">
-		<h2>What clothing best describes you?</h2>
-		<div class="row">
-			<div class="column">
-				<label>
-					<input type = "radio" name = "q5" value = "Kristine">
-					<img src = "img/urban.jpg" class="image4 images_quiz">
-				</label>
-			</div>
-			<div class="column">
-				<label>
-					<input type = "radio" name = "q5" value = "Patrick">
-					<img src = "img/slippers.jpg" class="image4 images_quiz">
-				</label>
-			</div>
-
-			<div class="column">
-				<label>
-					<input type = "radio" name = "q5" value = "Summer">
-					<img src = "img/bucket.jpg" class="image4 images_quiz">
-				</label>
-			</div>
-			<div class="column">
-				<label>
-					<input type = "radio" name = "q5" value = "Jamie">
-					<img src = "img/slipon.jpg" class="image4 images_quiz">
-				</label>
-			</div>
-		</div>
-		<div class = "row">
-			<div class="column">
-				<label>
-					<input type = "radio" name = "q5" value = "Adela">
-					<img src = "img/boots.jpeg" class="image4 images_quiz">
-				</label>
-			</div>
-
-			<div class="column">
-				<label>
-					<input type = "radio" name = "q5" value = "Tsvety">
-					<img src = "img/leather.jpg" class="image4 images_quiz">
-				</label>
-			</div>
-
-			<div class="column">
-				<label>
-					<input type = "radio" name = "q5" value = "Siana">
-					<img src = "img/burgundy.png" class="image4 images_quiz">
-				</label>
-			</div>			
-			<div class="column">
-				<label>
-					<input type = "radio" name = "q5" value = "Candice">
-					<img src = "img/gucci.jpg" class="image4 images_quiz">
-				</label>
-			</div>			
-		</div>
-	</div>
-	<div class = "photo">
-		<h2>Which GIF do you identify with the most?</h2>
-		<div class = "row">
-			<div class = "column">
-				<label>
-					<input type="radio" name = "q6" value = "Tsvety">
-					<img src = "img/confused.gif" class="image5 images_quiz">
-				</label>
-			</div>			
-			<div class = "column">
-				<label>
-					<input type="radio" name = "q6" value = "Adela">
-					<img src = "img/cardi.gif" class="image5 images_quiz">
-				</label>
-			</div>
-
-			<div class = "column">
-				<label>
-					<input type="radio" name = "q6" value = "Jamie">
-					<img src = "img/theresa.gif" class="image5 images_quiz">
-				</label>
-			</div>			
-			<div class = "column">
-				<label>
-					<input type="radio" name = "q6" value = "Candice">
-					<img src = "img/cute.gif" class="image5 images_quiz">
-				</label>
-			</div>
-
-		</div>
-		<div class = "row">
-			<div class = "column">
-				<label>
-					<input type="radio" name = "q6" value = "Summer">
-					<img src = "img/rap.gif" class="image5 images_quiz">
-				</label>
-			</div>
-			<div class = "column">
-				<label>
-					<input type="radio" name = "q6" value = "Siana">
-					<img src = "img/siana.gif" class="image5 images_quiz">
-				</label>
-			</div>						
-			<div class = "column">
-				<label>
-					<input type="radio" name = "q6" value = "Kristine">
-					<img src = "img/organic.gif" class="image5 images_quiz">
-				</label>
-			</div>
-
-
-			<div class = "column">
-				<label>
-					<input type="radio" name = "q6" value = "Patrick">
-					<img src = "img/404.gif" class="image5 images_quiz">
-				</label>
-			</div>
-		</div>
-	</div>
-	<div>
-		<h2>What do you do in your free time?</h2>
-		<div class="row">
-			<div class="text column">
-				<input type="radio" name="q7" value="Adela" id="eat">
-				<label for="eat" class="text_input input2">Watch Youtube videos</label>
-			</div>
-			<div class="text column">
-				<input type="radio" name="q7" value="Siana" id="series">
-				<label for="series" class="text_input input2">Eat while watching Two and a Half Men</label>
-			</div>
-			<div class="text column">
-				<input type="radio" name="q7" value="Candice" id="water">
-				<label for="water" class="text_input input2">Filter water</label>
-			</div>
-			<div class="text column">
-				<input type="radio" name="q7" value="Jamie" id="everything">
-				<label for="everything" class="text_input input2">Stay in the kitchen</label>
-			</div>
-		</div>
-	<div class="row">
-			<div class="text column">
-				<input type="radio" name="q7" value="Kristine" id="vegetarian">
-				<label for="vegetarian" class="text_input input2">Buy things I do not need</label>
-			</div>
-			<div class="text column">
-				<input type="radio" name="q7" value="Summer" id="microwave">
-				<label for="microwave" class="text_input input2">Cause microwave explosions</label>
-			</div>
-			<div class="text column">
-				<input type="radio" name="q7" value="Tsvety" id="cook">
-				<label for="cook" class="text_input input2">Play Duolingo</label>
-			</div>
-			<div class="text column">
-				<input type="radio" name="q7" value="Patrick" id="mystery">
-				<label for="mystery" class="text_input input2">Mystery</label>
-			</div>
-		</div>
-	</div>
-			
-</form>
-
-<button type="submit" value="Submit" onclick="hey()">View Results</button>
-<button value="Refresh Page" onClick="window.location.reload() ">Refresh</button>
-
-<div class = "results">
-	<h2 id="result_winner"></h2>
-	<div class="description">
-	<img id = "result_image">
-	<p id = "result_par"></p>
 </div>
-</div>
-
-</div>
-<script>
-window.onbeforeunload = function () {
-    window.scrollTo(0,0);
-};
-var question1 = document.getElementsByName("q1");
-
-for( i = 0; i < question1.length; i++ ) {
-
-question1[i].addEventListener("click", function(){
-
-	var els = document.getElementsByClassName("image1")
-
-	for (var m = 0; m < els.length; m++) {
-
-	els[m].classList.remove("mystyle");
-}
-
-	if (this.checked) {
-
-  	this.nextElementSibling.classList.add("mystyle");
-
-  	for (j = 0; j < document.getElementsByClassName("image1").length; j ++) {
-
-  	document.getElementsByClassName("image1")[j].style.opacity = "0.6";
-  }
-
-  }
-})
-}
-
-
-
-var question2 = document.getElementsByName("q2");
-
-for( i = 0; i < question2.length; i++ ) {
-
-question2[i].addEventListener("click", function(){
-
-	var els = document.getElementsByClassName("image2")
-
-	for (var m = 0; m < els.length; m++) {
-
-	els[m].classList.remove("mystyle");
-}
-
-	if (this.checked) {
-
-  	this.nextElementSibling.classList.add("mystyle");
-
-  	for (j = 0; j < document.getElementsByClassName("image2").length; j ++) {
-
-  	document.getElementsByClassName("image2")[j].style.opacity = "0.6";
-  }
-
-  }
-})
-}
-
-
-var question3 = document.getElementsByName("q3");
-
-for( i = 0; i < question3.length; i++ ) {
-
-question3[i].addEventListener("click", function(){
-
-	var els = document.getElementsByClassName("input1")
-
-	for (var m = 0; m < els.length; m++) {
-
-	els[m].classList.remove("mystyle");
-}
-
-	if (this.checked) {
-
-  	this.nextElementSibling.classList.add("mystyle");
-
-  	for (j = 0; j < document.getElementsByClassName("input1").length; j ++) {
-
-  	document.getElementsByClassName("input1")[j].style.opacity = "0.6";
-  }
-
-  }
-})
-}
-
-
-var question4 = document.getElementsByName("q4");
-
-for( i = 0; i < question4.length; i++ ) {
-
-question4[i].addEventListener("click", function(){
-
-	var els = document.getElementsByClassName("image3")
-
-	for (var m = 0; m < els.length; m++) {
-
-	els[m].classList.remove("mystyle");
-}
-
-	if (this.checked) {
-
-  	this.nextElementSibling.classList.add("mystyle");
-
-  	for (j = 0; j < document.getElementsByClassName("image3").length; j ++) {
-
-  	document.getElementsByClassName("image3")[j].style.opacity = "0.6";
-  }
-
-  }
-})
-}
-
-var question5 = document.getElementsByName("q5");
-
-for( i = 0; i < question5.length; i++ ) {
-
-question5[i].addEventListener("click", function(){
-
-	var els = document.getElementsByClassName("image4")
-
-	for (var m = 0; m < els.length; m++) {
-
-	els[m].classList.remove("mystyle");
-}
-
-	if (this.checked) {
-
-  	this.nextElementSibling.classList.add("mystyle");
-
-  	for (j = 0; j < document.getElementsByClassName("image4").length; j ++) {
-
-  	document.getElementsByClassName("image4")[j].style.opacity = "0.6";
-  }
-
-  }
-})
-}
-
-var question6 = document.getElementsByName("q6");
-
-for( i = 0; i < question6.length; i++ ) {
-
-question6[i].addEventListener("click", function(){
-
-	var els = document.getElementsByClassName("image5")
-
-	for (var m = 0; m < els.length; m++) {
-
-	els[m].classList.remove("mystyle");
-}
-
-	if (this.checked) {
-
-  	this.nextElementSibling.classList.add("mystyle");
-
-  	for (j = 0; j < document.getElementsByClassName("image5").length; j ++) {
-
-  	document.getElementsByClassName("image5")[j].style.opacity = "0.6";
-  }
-
-  }
-})
-}
-
-
-
-var question7 = document.getElementsByName("q7");
-
-for( i = 0; i < question3.length; i++ ) {
-
-question7[i].addEventListener("click", function(){
-
-	var els = document.getElementsByClassName("input2")
-
-	for (var m = 0; m < els.length; m++) {
-
-	els[m].classList.remove("mystyle");
-}
-
-	if (this.checked) {
-
-  	this.nextElementSibling.classList.add("mystyle");
-
-  	for (j = 0; j < document.getElementsByClassName("input2").length; j ++) {
-
-  	document.getElementsByClassName("input2")[j].style.opacity = "0.6";
-  }
-
-  }
-})
-}
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+				<script type="text/javascript" src="assets/jt_quiz/js/script.js"></script>
+				<script>
 
 </script>
-</body>
+
+	</body>
+
 </html>
