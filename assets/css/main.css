@@ -1883,6 +1883,12 @@ ul{
 	object-fit: contain;
 }
 
+.crop-char .answer_image {
+		position: relative;
+	min-width: 100%;
+	max-height: 250px;
+	object-fit: cover;
+}
 
 .crop {
 	width: 200px;
