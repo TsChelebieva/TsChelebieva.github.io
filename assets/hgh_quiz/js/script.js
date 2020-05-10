@@ -1,4 +1,10 @@
 function totalResult(){
+	var all = document.querySelectorAll('input[type=radio]:checked')
+
+		if (all.length < 11) {
+			alert("You have not answered all questions!");
+		}
+
 	var q1 = document.querySelector("input[name='q1']:checked").value;
 	var q2 = document.querySelector("input[name='q2']:checked").value;
 	var q3 = document.querySelector("input[name='q3']:checked").value;
@@ -9,8 +15,10 @@ function totalResult(){
 	var q8 = document.querySelector("input[name='q8']:checked").value;
 	var q9 = document.querySelector("input[name='q9']:checked").value;
 	var q10 = document.querySelector("input[name='q10']:checked").value;
+	var q11 = document.querySelector("input[name='q10']:checked").value;
 
-	var result = [q1,q2,q3,q4,q5,q6,q7,q8,q9,q10];
+
+	var result = [q1,q2,q3,q4,q5,q6,q7,q8,q9,q10,q11];
 	var mf = 1;
 	var m = 0;
 	var item;
@@ -27,11 +35,11 @@ function totalResult(){
 		m = 0;
 	}
 	var result = ["You are Adela!", "You are Ana!", "You are Hareem!", "You are Jenny!", "You are Maria!", "You are Roberta!", "You are Siana!", "You are Tanvi!", "You are Tsvety!", "You are Xuyi!"];
-	var image = ["img/adela.jpg","img/siana.jpg","img/candice.jpg","img/jamie.jpg","img/kristine.jpg" ,"img/summer.jpg","img/tsvety.jpg" , "img/patrick.jpg"]
+	var image = ["images/HGH/Adela.png","images/HGH/Ana.jpg","images/HGH/Hareem.jpg","images/HGH/Jenny.jpg","images/HGH/Maria.jpg","images/HGH/Roberta.jpg" ,"images/HGH/Siana.jpg","images/HGH/Tanvi.jpg", "images/HGH/Tsvety.png" , "images/HGH/Xuyi.jpg"]
 	var text = [
-	"You are the bitchy friend of the group. You might appear judgemental, but it's only because you want the best for your friends, who you love very much. Always ready to give scientific advice!",
+	"You are the bitchy friend of the group. You might appear judgemental, but it's only because you want the best for your friends, who you love very much. Always ready to give scientific advice and pose dramatically for photos!",
 	"You are the friend who is always up for anything. Any crazy idea, just bring it on. You might not know what 2+2*2 equals, but you can quote Keats in your sleep. Your laugh is contagious, and you're always there to cheer us up.",  
-	"You are the chill friend, minding your business, but there when someone needs to talk. A great breakfast buddy to talk about oats and yoghurt with.", 
+	"You are the chill friend, minding your business, but there when someone needs to talk. A great buddy to talk about oats and social injustice.", 
 	"You are the bro friend. You don't know what's happening most of the time, but when you do, you don't. Just kidding, you are hard-working and love your friends.", 
 	"You are the loud friend. You like to party and are always surrounded by friends. However, please understand when it's 3AM and you just have to shut the fuck up.",
 	"You are the quiet friend. You like sharing your mom's cooking with friends and you always put up with all of our bullshit. The party is just not the same without you.",
@@ -42,6 +50,9 @@ function totalResult(){
 
 	
 	];
+
+  document.getElementById("results").style.display = "block";
+
 
 	switch(item){
 
@@ -109,7 +120,7 @@ function totalResult(){
 
 		break;
 
-		case "Tsvetina":
+		case "Tsvety":
 		document.getElementById("result_winner").innerHTML = result[8];
 		document.getElementById("result_image").src = image[8];
 		document.getElementById("result_par").innerHTML = text[8];
@@ -123,6 +134,8 @@ function totalResult(){
 
 	}
 
+	showChar();
+
 }
 
 function findPercentage(array){
@@ -132,4 +145,8 @@ uniqueItems.forEach(currColor => {
   const numItems = array.filter(color => color === currColor) 
   console.log(`color ${currColor} represents ${numItems.length * 100 / totalItems}%`)
 })
+}
+
+function showChar() {
+  document.getElementById("all_char").style.display = "block";
 }
