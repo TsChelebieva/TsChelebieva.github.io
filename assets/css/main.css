@@ -2010,7 +2010,7 @@ box-shadow: 3px 3px 10px grey;
 
 /* Loader */
 
-#pre-loader {
+.pre-loader {
     background-color: white;
     position: fixed;
     height: 100%;
