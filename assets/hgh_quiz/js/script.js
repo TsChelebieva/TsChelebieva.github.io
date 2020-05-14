@@ -46,7 +46,7 @@ function totalResult(){
 	"You are the bubbly one of the group. You burst into the kitchen always matchy-matchy and ready to entertain with your love stories, but also empathically listen to everyone's problems and educate on toxic men.",
 	"You are the bully friend of the group. You enjoy other people's (Jenny) pain, but also like giving. You are curious, and a great conversation partner, especially when it comes to politics or any other serious topics.",
 	"You are the nerd friend of the group. You might appear closed off at the beginning, but once someone gets to know you, you're soft, loving and loud. You're a perfectionist and like to excel at everything you do.",
-	"You are the black lesbian Bulgarian cancer survivor truck driver friend of the group. You are always ready to serve tea and suck dick. You get turned on by political debates."
+	"You are the black lesbian Bulgarian cancer survivor truck driver friend of the group. You are always ready to serve tea and suck dick and one of your turn ons is political debates."
 
 	
 	];
