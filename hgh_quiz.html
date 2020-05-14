@@ -32,7 +32,7 @@
 
 
 	</head>
-	<body class="is-preload">
+	<body >
 <!--CSS Spinner-->
 <div class="pre-loader">
 <div class="spinner">
@@ -2200,9 +2200,10 @@
 </div>
 		<!-- Scripts -->
 <script>
-$(window).on('load', function() {
- $('.spinner').fadeOut(); // will first fade out the loading animation
-$('.pre-loader').delay(50).fadeOut(100);
+$(document).ready(function() {
+window.onload = function () {
+$('.pre-loader').fadeOut(500, function(){ $('.pre-loader').remove(); } );
+}
 });
 </script>
 
