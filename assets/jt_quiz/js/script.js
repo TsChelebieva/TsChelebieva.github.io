@@ -120,3 +120,13 @@ showChar()
 function showChar() {
   document.getElementById("all_char").style.display = "block";
 }
+
+(function($){
+  'use strict';
+    $(window).on('load', function () {
+        if ($(".pre-loader").length > 0)
+        {
+            $(".pre-loader").fadeOut("slow");
+        }
+    });
+})(jQuery)

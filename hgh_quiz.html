@@ -30,6 +30,13 @@
 
 	</head>
 	<body class="is-preload">
+<!--CSS Spinner-->
+<div id="pre-loader">
+<div class="spinner">
+  <div class="double-bounce1"></div>
+  <div class="double-bounce2"></div>
+</div>
+</div>
 
 
 		<!-- Wrapper -->
@@ -2189,6 +2196,14 @@
 	</div>
 </div>
 		<!-- Scripts -->
+<script>
+var loader = document.getElementById('pre-loader');
+
+window.addEventListener ("load", function() {
+    loader.style.display = 'none';
+});
+</script>
+
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/browser.min.js"></script>
 			<script src="assets/js/breakpoints.min.js"></script>
