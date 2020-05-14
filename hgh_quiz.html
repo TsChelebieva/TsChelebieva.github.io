@@ -28,7 +28,12 @@
 	<!-- Bootstrap CSS -->
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
-
+<script>
+		$(window).on("load",function() {
+		// Animate loader off screen
+		$(".pre-loader").fadeOut("slow");;
+	});
+</script>
 
 
 	</head>
@@ -2200,11 +2205,7 @@
 </div>
 		<!-- Scripts -->
 <script>
-$(document).ready(function() {
-window.onload = function () {
-$('.pre-loader').fadeOut(500, function(){ $('.pre-loader').remove(); } );
-}
-});
+
 </script>
 
 			<script src="assets/js/browser.min.js"></script>
