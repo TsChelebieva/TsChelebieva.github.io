@@ -35,7 +35,7 @@ function totalResult(){
 		m = 0;
 	}
 	var result = ["You are Adela!", "You are Ana!", "You are Hareem!", "You are Jenny!", "You are Maria!", "You are Roberta!", "You are Siana!", "You are Tanvi!", "You are Tsvety!", "You are Xuyi!"];
-	var image = ["images/HGH/Adela.jpg","images/HGH/Ana.jpg","images/HGH/Hareem.jpg","images/HGH/Jenny.jpg","images/HGH/Maria.jpg","images/HGH/Roberta.jpg" ,"images/HGH/Siana.jpg","images/HGH/Tanvi.jpg", "images/HGH/Tsvety.png" , "images/HGH/Xuyi.jpg"]
+	var image = ["images/HGH/Adela.webp","images/HGH/Ana.webp","images/HGH/Hareem.webp","images/HGH/Jenny.webp","images/HGH/Maria.webp","images/HGH/Roberta.webp" ,"images/HGH/Siana.webp","images/HGH/Tanvi.webp", "images/HGH/Tsvety.webp" , "images/HGH/Xuyi.webp"]
 	var text = [
 	"You are the bitchy friend of the group. You might appear judgemental, but it's only because you want the best for your friends, who you love very much. Always ready to give scientific advice and pose dramatically for photos!",
 	"You are the friend who is always up for anything. Any crazy idea, just bring it on. You might not know what 2+2*2 equals, but you can quote Keats in your sleep. Your laugh is contagious, and you're always there to cheer us up.",  
