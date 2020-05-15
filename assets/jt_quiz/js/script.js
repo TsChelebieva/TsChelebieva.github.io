@@ -33,7 +33,7 @@ for (var i = 0; i < result.length; i++) {
 }
 
 var result = ["You are Adela!", "You are Siana!", "You are Candice!", "You are Jamie!", "You are Kristine!", "You are Summer!", "You are Tsvety!", "You are Patrick!"];
-var image = ["images/jt_quiz/adela.jpg","images/jt_quiz/siana.jpg","images/jt_quiz/candice.jpg","images/jt_quiz/jamie.jpg","images/jt_quiz/kristine.jpg" ,"images/jt_quiz/summer.jpg","images/jt_quiz/tsvety.jpg" , "images/jt_quiz/patrick.jpg"]
+var image = ["images/jt_quiz/adela.webp","images/jt_quiz/siana.webp","images/jt_quiz/candice.webp","images/jt_quiz/jamie.webp","images/jt_quiz/kristine.webp" ,"images/jt_quiz/summer.webp","images/jt_quiz/tsvety.webp" , "images/jt_quiz/patrick.webp"]
 var text = [
 "Mama Mia! Some people might perceive you as cold and bitchy, but you are a literal cuddly ball of happiness! You have the most prominent cheek bones (which might be the reason why people mistake you for Maleficent, while you are actually one of the puffy animals). Your singing voice always leaves your flatmates with their mouth open. You are a night owl, and you do get shit done - without even complaining that you haven\'t slept for DAYS!",
  "You have a cute and feminine personality. Kind of obsessed with boyz and kpop drama, you established yourself as the bubbly one of the group.", 
