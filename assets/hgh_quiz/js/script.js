@@ -35,7 +35,7 @@ function totalResult(){
 		m = 0;
 	}
 	var result = ["You are Adela!", "You are Ana!", "You are Hareem!", "You are Jenny!", "You are Maria!", "You are Roberta!", "You are Siana!", "You are Tanvi!", "You are Tsvety!", "You are Xuyi!"];
-	var image = ["images/HGH/res/Adela.jpg","images/HGH/res/Ana.jpg","images/HGH/res/Hareem.jpg","images/HGH/res/Jenny.jpg","images/HGH/res/Maria.jpg","images/HGH/res/Roberta.jpg" ,"images/HGH/res/Siana.jpg","images/HGH/res/Tanvi.jpg", "images/HGH/res/Tsvety.png" , "images/HGH/res/Xuyi.jpg"]
+	var image = ["images/HGH/Res/Adela.jpg","images/HGH/Res/Ana.jpg","images/HGH/Res/Hareem.jpg","images/HGH/Res/Jenny.jpg","images/HGH/Res/Maria.jpg","images/HGH/Res/Roberta.jpg" ,"images/HGH/Res/Siana.jpg","images/HGH/Res/Tanvi.jpg", "images/HGH/Res/Tsvety.png" , "images/HGH/Res/Xuyi.jpg"]
 	var text = [
 	"You are the bitchy friend of the group. You might appear judgemental, but it's only because you want the best for your friends, who you love very much. Always ready to give scientific advice and pose dramatically for photos!",
 	"You are the friend who is always up for anything. Any crazy idea, just bring it on. You might not know what 2+2*2 equals, but you can quote Keats in your sleep. Your laugh is contagious, and you're always there to cheer us up.",  
