@@ -5,9 +5,9 @@ These are Buzzfeed inspired multiple choice personality quizzes done in spare ti
 Done with HTML, CSS, jQuery, Bootstrap
 
 ## Getting Started
-Open the homepage of the [quiz](https://tschelebieva.github.io/)
-For Helen Graham House Quiz press [here](https://tschelebieva.github.io/hgh_quiz.html)
-For John Tovell House Quiz press [here](https://tschelebieva.github.io/jt_quiz.html)
+* Open the homepage of the [quiz](https://tschelebieva.github.io/)
+* For Helen Graham House Quiz press [here](https://tschelebieva.github.io/hgh_quiz.html)
+* For John Tovell House Quiz press [here](https://tschelebieva.github.io/jt_quiz.html)
 
 ## Acknowledgments
 
